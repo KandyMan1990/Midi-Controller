@@ -1,0 +1,12 @@
+{
+	"root": [
+		{ "lineOne": "Clean", "whammy": 44 },
+		{ "lineOne": "Clean Compressed", "whammy": 44 },
+		{ "lineOne": "Clean Chorus", "whammy": 44 },
+		{ "lineOne": "Clean Compressed", "lineTwo": "Chorus", "whammy": 44 },
+		{ "lineOne": "Clean Delay", "whammy": 44 },
+		{ "lineOne": "Clean Compressed", "lineTwo": "Delay", "whammy": 44 },
+		{ "lineOne": "Clean Chorus &", "lineTwo": "Delay", "whammy": 44 },
+		{ "lineOne": "Clean Compressed", "lineTwo": "Chorus & Delay", "whammy": 44 }
+	]
+}

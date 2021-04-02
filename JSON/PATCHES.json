@@ -1,0 +1,80 @@
+{
+	"patch": [
+		{ "name": "Clean", "whammy": 44 },
+		{ "name": "Clean Compressed", "whammy": 44 },
+		{ "name": "Clean Chorus", "whammy": 44 },
+		{ "name": "Clean Compressed Chorus", "whammy": 44 },
+		{ "name": "Clean Delay", "whammy": 44 },
+		{ "name": "Clean Compressed Delay", "whammy": 44 },
+		{ "name": "Clean Chorus & Delay", "whammy": 44 },
+		{ "name": "Clean Compressed Chorus & Delay", "whammy": 44 },
+		{ "name": "Main Rhythm", "whammy": 44 },
+		{ "name": "Main Rhythm & Chorus", "whammy": 44 },
+		{ "name": "Nightrain Lead", "whammy": 44 },
+		{ "name": "Main Lead", "whammy": 44 },
+		{ "name": "Main Lead & Chorus", "whammy": 44 },
+		{ "name": "Main Lead & Q-Zone", "whammy": 44 }
+	]
+}
+
+/*
+whammy:
+change to midi channel 2
+43: 2 octave up
+44: 1 octave up
+45: 5th up
+46: 4th up
+47: 2nd down
+48: 4th down
+49: 5th down
+50: 1 octave down
+51: 2 octave down
+52: dive bomb
+53: deep detune
+54: shallow detune
+55: 2nd/3rd up
+56: b3rd/3rd up
+57: 3rd/4th up
+58: 4th/5th up
+59: 5th/6th up
+60: 5th/7th up
+61: 4th/3rd down
+62: 5th/4th down
+63: 1 octave down/1 octave up
+
++23 to the above value to bypass on that patch
+
+CC11 adjusts expression pedal 0 - 127
+10k pot required for controller
+
+flashback:
+is already on midi channel 6
+1: bypass all
+2: preset a/bank 1
+3: preset b/bank 1
+4: preset c/bank 1
+5: preset a/bank 2
+6: preset b/bank 2
+7: preset c/bank 2
+
+to bypass, use either program change 1 (all fx off) or cc12 (toggle existing preset on/off)
+cc12: 0-63 fx on, 64-128 fx off
+cc13: tap tempo
+
+hall of fame:
+is already on midi channel 5
+1: bypass all
+2: preset a/bank 1
+3: preset b/bank 1
+4: preset c/bank 1
+5: preset d/bank 1
+6: preset a/bank 2
+7: preset b/bank 2
+8: preset c/bank 2
+9: preset d/bank 2
+
+to bypass, use either program change 1 (all fx off) or cc12 (toggle existing preset on/off)
+cc12: 0-63 fx on, 64-128 fx off
+
+Look into short circuit and over voltage protection when deploying project (not sure if necessary with the official PSU but couldn't hurt)
+*/
